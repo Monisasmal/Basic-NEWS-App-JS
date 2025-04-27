@@ -1,0 +1,79 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 1rem 0;
+}
+
+.navbar .container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-form input, .search-form button {
+  padding: 0.5rem;
+  margin-left: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.search-form button {
+  background-color: #5cb85c;
+  color: white;
+  cursor: not-allowed;
+}
+
+/* News container */
+.container {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.badge {
+  background-color: #6c757d;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+}
+
+/* Accordion items */
+.accordion-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.accordion-header {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.accordion-content {
+  display: none;
+  padding: 1rem;
+  background-color: white;
+  border-top: 1px solid #ccc;
+}
+
+.accordion-content a {
+  color: blue;
+  text-decoration: underline;
+}
+
+/* Show content when active */
+.accordion-item.active .accordion-content {
+  display: block;
+}
