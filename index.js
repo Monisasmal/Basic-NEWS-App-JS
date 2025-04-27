@@ -5,7 +5,7 @@ let newsAccordion = document.getElementById('newsAccordion');
 
 async function fetchNews() {
     try {
-        let response = await fetch(`https://newsapi.org/v2/top-headlines?sources=${sources}&apiKey=${apiKey}`);
+        let response = await fetch(`https://gnews.io/api/v4/top-headlines?token=${apiKey}&lang=en&country=in&max=10`);
 
         if (!response.ok) {
             throw new Error('Network response was not ok');
