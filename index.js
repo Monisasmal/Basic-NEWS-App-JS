@@ -1,5 +1,5 @@
-let apiKey = '047aed9f871343aeb3a055340046027d';
-let sources = 'bbc-news';
+let apiKey = '298422ff5aee67425b86f0a2b7459d45';
+let sources = 'Gnews';
 
 let newsAccordion = document.getElementById('newsAccordion');
 
