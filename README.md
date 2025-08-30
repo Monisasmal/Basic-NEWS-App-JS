@@ -1,14 +1,14 @@
- **📰 Basic NEWS App - JavaScript Project**
+ ## 📰 Basic NEWS App - JavaScript Project
 
 A simple, responsive News Web Application built using HTML, CSS, and JavaScript. This project displays the latest news articles with a clean and minimal design.
 
-**🔗 Live Demo**
+## 🔗 Live Demo
 
 👉 [View the Project](https://monisasmal.github.io/Basic-NEWS-App-JS/)
 
  
 
-**📌 Features**
+## 📌 Features
 
 ✅ Displays top news headlines  
 ✅ Responsive layout for mobile, tablet, and desktop  
@@ -16,7 +16,7 @@ A simple, responsive News Web Application built using HTML, CSS, and JavaScript.
 ✅ Clean and minimal UI  
 ✅ Built entirely with Vanilla JavaScript, HTML, and CSS  
 
-**📁 Project Structure**
+## 📁 Project Structure
 
 Basic-NEWS-App-JS/
 
@@ -28,7 +28,7 @@ Basic-NEWS-App-JS/
 
 
 
-**💻 Tech Stack**
+## 💻 Tech Stack
 
 HTML5 – Structure
 
@@ -36,7 +36,7 @@ CSS3 – Styling and layout
 
 JavaScript (Vanilla JS) – Dynamic content handling
 
-**Screen shots**
+## Screen shots
 ![image](https://github.com/user-attachments/assets/c2c44e6f-a718-41e8-b87e-9861e3d3e2d0)
 
 Made with ❤️ by Manaswini Sasmal
